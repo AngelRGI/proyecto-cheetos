@@ -1,0 +1,66 @@
+/* header */
+header{
+    background-color:rgb(231, 115, 48);
+    
+}
+
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+nav a {
+text-decoration: none;
+font-size: 1.9rem ;
+color: white;
+}
+
+footer{
+    background-color:rgb(231, 115, 48);
+    color: white;
+    font-size: 1.2rem;
+}
+
+div{
+    background-color: rgb(231, 115, 48);
+    height: 80px;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    
+    color: white;
+}
+
+p{
+  size: 20rem;  
+}
+.redes{ 
+width: 65px;
+}
+
+.hprincipal{
+    text-align: left;
+    size: 1.0rem;
+}
+.banners{
+    width:max-content;
+}
+.pbanner{
+    text-align: center;
+}
+.imgchicas{
+    width: 200px;
+}
+.strongp{
+    text-align: center;
+    size: 1.8rem;
+    color: rgb(231, 115, 48);
+}
+section{
+    text-align: center;
+}
