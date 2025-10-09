@@ -1,10 +1,18 @@
-/* header */
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     background-color:rgb(231, 115, 48);
     
 }
 
-nav{
+header image{
+    width: 60px;
+    margin: 8px;
+}
+
+ /* nav{
     text-align: center;
 }
 nav ul{
@@ -14,22 +22,33 @@ nav a {
 text-decoration: none;
 font-size: 1.9rem ;
 color: white;
-}
+}  */
 
-footer{
-    background-color:rgb(231, 115, 48);
-    color: white;
-    font-size: 1.2rem;
-}
 
-div{
+
+/* div{
     background-color: rgb(231, 115, 48);
     height: 80px;
     text-align: center;
     align-content: center;
     margin-bottom: 20px;
     margin-top: 20px;
+}*/
+nav div{
+    background-color: rgb(231, 115, 48);
+    text-align: right;
+    align-content: right;
+    margin-bottom: 0;
+
+} 
+.nav-link{
+    padding: 40px;
+    font-size: 25px;
+    color:white;
+    font-style: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 
 h2{
     
@@ -49,18 +68,554 @@ width: 65px;
 }
 .banners{
     width:max-content;
+    
 }
-.pbanner{
-    text-align: center;
-}
+
 .imgchicas{
     width: 200px;
 }
-.strongp{
-    text-align: center;
-    size: 1.8rem;
-    color: rgb(231, 115, 48);
-}
+
 section{
     text-align: center;
 }
+
+.div_productos{
+    
+    height: 520px;
+    background-color: rgb(231, 115, 48);
+    text-align: center;
+    align-content: center;
+}
+.pbanner{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-style: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.carousel-inner img{
+    margin: 0 auto;
+}
+
+.btn_productos {
+    border: none;
+    border-radius: 5%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orange;
+}
+.conjunto_video{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.videos_titulo{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color:  rgb(231, 115, 48) ;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn_videos{
+    border: none;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(231, 115, 48);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+
+.div_videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.video{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.recetas{
+    background: linear-gradient(to bottom, #f36c21 60%, white 40%);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    position: relative;
+}
+
+.recetas_h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4.5rem;
+    color: white;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+.container_recetas{
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.el {
+    margin: 0;
+    padding: 40px;
+}
+
+.el img{
+    
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn_recetas{
+    border: none;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(231, 115, 48);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    gap: 0px;
+    background-color: rgb(231, 115, 48);
+    height: 100px ;
+}
+.social img {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    width: 80px;
+    height: 80px;
+}
+.h2social {
+    background-color: rgb(231, 115, 48);
+    padding: 20px;    
+}
+.h2social h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.strongp{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    margin-bottom: 17px;
+
+}
+
+footer{
+    height: 200px;
+    background-color:white;
+    color: rgb(231, 115, 48);
+    font-size: 1.2rem;
+}
+.div-footer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+.div-footer img {
+    width: 140px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.div-footer p{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-style:inherit;
+    color: black;
+}
+
+.div-titulo{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.div-titulo h1 {
+    margin-right: 80px;
+    font-size: 100px;
+    color: rgb(231, 115, 48);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+}
+
+.div-seccion-productos{ 
+    padding: 80px;
+    min-height: 800px;   
+    background-color:rgb(231, 115, 48);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.pimg{
+    text-align: center;
+    
+}
+.pimg img{
+    width: 320px;
+    height: 250px;
+    
+}
+.pimg h3{
+    margin-top: 20px;
+    color: white;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.btn_pdctos{
+    border: none;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(231, 115, 48);
+}
+
+.recetario p {
+    margin-top: 40px;
+    font-style:inherit;
+    font-size: 20px;
+}
+
+.div-recetas {
+    background-color: rgb(231, 115, 48);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.section-recetas{
+    align-content: center;
+    align-items: center;
+    height: 170px;
+}
+.div-recetas h1{
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-right: 180px;
+}
+
+.grid-recetas{
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.rec p{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.formulario{
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(231, 115, 48);
+    min-height: 200px;
+
+}
+
+
+.form{
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 40px;
+}
+
+.btn_form{
+    border: none;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(231, 115, 48);
+}
+
+.acerca-banner {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.acerca-banner h1{
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(231, 115, 48);
+    margin-right: 180px;
+}
+
+.info{
+    align-content: center;
+    text-align: center;
+    font-size: 1rem;
+    background-color: rgb(204, 198, 198);
+    height: 200px;
+}
+
+.info p {
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    /* NAVBAR */
+    .nav-link {
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        width: 50px;
+    }
+
+    /* BANNER PRINCIPAL */
+    .img_principal img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* PRODUCTOS */
+    .div_productos {
+        height: auto;
+        padding: 20px;
+    }
+
+    .pbanner {
+        font-size: 30px;
+    }
+
+    .btn_productos {
+        margin: 30px auto;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* CAROUSEL */
+    .carousel-inner img {
+        width: 100%;
+    }
+
+    /* VIDEOS */
+    .videos_titulo {
+        font-size: 40px;
+    }
+
+    .div_videos {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .video iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    .btn_videos {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* RECETAS */
+    .recetas_h2 {
+        font-size: 2.5rem;
+    }
+
+    .container_recetas {
+        grid-template-columns: 1fr;
+        background-color: #f36c21;
+    }
+
+    .el img {
+        width: 90%;
+    }
+
+    .btn_recetas {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* REDES */
+    .h2social h2 {
+        font-size: 40px;
+    }
+
+    .social {
+        flex-direction: row;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .social img {
+        width: 60px;
+        height: 60px;
+        margin: 10px 0;
+    }
+
+    /* FOOTER */
+    .div-footer img {
+        width: 100px;
+        height: auto;
+    }
+
+    .div-footer p {
+        font-size: 12px;
+        margin: 10px 20px;
+    }
+
+    /* SECCIÓN PRODUCTOS (GRID) */
+
+    .div-titulo{
+        text-align: center;
+        width: max-content;
+        height: 100px;
+        background-color: white;
+    }
+    .div-titulo h1 {
+    font-size: 20px;
+    color: rgb(231, 115, 48);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .div-titulo img{
+        visibility: hidden;
+    }
+    .div-seccion-productos {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+        width: 100%;
+        min-height: auto;
+        gap: 30px;
+    }
+
+    .pimg img {
+        width: 90%;
+        height: auto;
+    }
+
+    .pimg h3 {
+        font-size: 28px;
+    }
+
+    /* SECCIÓN RECETARIO Y GRID */
+    .div-recetas {
+        flex-direction: column;
+    }
+
+    .div-recetas h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .grid-recetas {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin: 20px;
+    }
+
+    .rec p {
+        font-size: 16px;
+    }
+
+    /* FORMULARIO */
+    .form {
+        padding: 20px;
+        margin: 0 10px;
+    }
+
+    .btn_form {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* ACERCA */
+    .acerca-banner {
+        flex-direction: column;
+    }
+
+    .acerca-banner h1 {
+        font-size: 50px;
+        margin: 20px 0;
+    }
+
+    /* INFO */
+    .info {
+        height: auto;
+        padding: 20px;
+    }
+
+    .info p {
+        margin: 10px;
+        font-size: 14px;
+    }
+}
+
+
+

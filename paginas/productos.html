@@ -5,52 +5,78 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, iniital-scale=1.0">
         <title>"productos"</title>  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
     <header>
-     
-    <nav>
-        <ul>
-            <li><a href="../index.html"> <img src="../images/logo.png"></a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="acerca.html">Acerca de</a></li>
-            <li><a href="recetas.html">Recetas</a></li>
-        </ul>
-
+     <!-- NAV con Bootstrap -->
+    <nav class="navbar p-0 m-0 navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">Productos</a>
+                    <a class="nav-link" href="recetas.html">Recetas</a>
+                    <a class="nav-link" href="acerca.html">Acerca De</a>
+                </div>
+            </div>
+        </div>
     </nav>  
     </header>
     <main>
-        <section>
-            <h1>Productos</h1>
+        <!-- TITULO DIV -->
+        <div class="div-titulo">
+            <h1>PRODUCTOS</h1>
             <img src="../images/bannerprod.jpg">
-        </section>
-        <section>
-            <img src="../images/pcrunchy.png">
-            <h3>CRUNCHY</h3>
-            <p>Ver todos</p>
-            <img src="../images/ppuffs.png">
-            <h3>PUFFS</h3>
-            <p>Ver todos</p>
-            <img src="../images/pmac.png">
-            <h3>MAC 'N CHEESE</h3>
-            <p>Ver todos</p>
-            <img src="../images/pflamin.png">
-            <h3>FLAMIN' HOT</h3>
-            <p>Ver todos</p>
-            <img src="../images/pfantastix.png">
-            <h3>FANTASTIX</h3>
-            <p>Ver todos</p>
-            <img src="../images/psimply.png">
-            <h3>SIMPLY</h3>
-            <p>Ver todos</p>
-        </section>
+        </div>
+        <!-- INICIO DE PRODUCTOS -->
+        <div class = "div-seccion-productos">
+            <div class = "pimg">
+                <img src="../images/pcrunchy.png">
+                <h3>CRUNCHY</h3>
+                <a href="./productos.html"><button class="btn_pdctos">VER PRODUCTOS</button></a>
+            </div>
+            <div class = "pimg">
+                <img src="../images/ppuffs.png">
+                <h3>PUFFS</h3>
+                <a href="./productos.html"><button class="btn_pdctos">VER PRODUCTOS</button></a>
+            </div>
+            <div class ="pimg">
+                <img src="../images/pmac.png">
+                <h3>MAC 'N CHEESE</h3>
+                <a href="./productos.html"><button class="btn_pdctos">VER PRODUCTOS</button></a>
+            </div>
+            <div class ="pimg">
+                <img src="../images/pflamin.png">
+                <h3>FLAMIN' HOT</h3>
+                <a href="./productos.html"><button class="btn_pdctos">VER PRODUCTOS</button></a>
+            </div>
+            <div class ="pimg">
+                <img src="../images/pfantastix.png">
+                <h3>FANTASTIX</h3>
+                <a href="./productos.html"><button class="btn_pdctos">VER PRODUCTOS</button></a>
+            </div>
+            <div class ="pimg">
+                <img src="../images/psimply.png">
+                <h3>SIMPLY</h3>
+                <a href="./productos.html"><button class="btn_pdctos">VER PRODUCTOS</button></a>
+            </div>
+        </div>
 
     </main>
     <footer>
+        <div class ="div-footer">
+            <div><a href ="index.html"><img src="../images/logo.png"></div></a>
+            <div><p>© 2025 Frito-Lay North America, Inc. a Division of PepsiCo</p></div>
+        </div>
         
-        <p> <img src="../images/logo.png"> © 2025 Frito-Lay North America, Inc. a Division of PepsiCo</p>
     </footer>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
     </body>
     
 </html>

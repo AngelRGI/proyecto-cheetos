@@ -5,83 +5,109 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, iniital-scale=1.0">
         <title>"recetas"</title>  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
     <header>
-     
-    <nav>
-        <ul>
-            <li><a href="../index.html"> <img src="../images/logo.png"></a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="acerca.html">Acerca de</a></li>
-            <li><a href="#">Recetas</a></li>
-        </ul>
-
-    </nav>  
+    <!-- NAV con Bootstrap -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                    <a class="nav-link" href="#">Recetas</a>
+                    <a class="nav-link" href="acerca.html">Acerca De</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     </header>
     <main>
-        <section>
-           <a href="https://www.fl-vr.com/"> <img src="../images/flvr.png">
-</a>
+        <section class = "section-recetas">
+           <a href="https://www.fl-vr.com/"> <img src="../images/flvr.png"></a>
         </section>
-        <section>
-            <h1>Recetas</h1>
+        <div class = "div-recetas">
+            <h1>RECETAS</h1>
             <img src="../images/recetas.png">
-        </section>
-        <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <h4>Recetas en plato</h4>
-            <h4>Recetas para festividades</h4>
-            <h4>Recetas para la comida</h4>
-            <h4>Snacks</h4>
-
-        </section>
-        <section>
-            <img src="../images/recet4.jpg">
-            <p>Lorem ipsum </p>
-            <img src="../images/recet5.jpg">
-            <p>Lorem ipsum </p>
-            <img src="../images/recet6.jpg">
-            <p>Lorem ipsum </p>
-            <img src="../images/recet7.jpg">
-            <p>Lorem ipsum </p>
-            <img src="../images/recet8.jpg">
-            <p>Lorem ipsum </p>
-            <img src="../images/recet9.jpg">
-            <p>Lorem ipsum </p>
-            <img src="../images/recet10.jpg">
-            <p>Lorem ipsum </p>
-            <img src="../images/recet11.jpg">
-            <p>Lorem ipsum </p>
-            <img src="../images/recet12.jpg">
-            <p>Lorem ipsum </p>
-        </section>
-        <div>
-            <h2>COMPARTE TU RECETA</h2>
         </div>
-        <section>
-            
-            <form action="">
-                <label for="nombre">Ingresa tu nombre</label>
-                <input type="text" name="" id="nombre"> 
+        <section class = "recetario">
+            <p>BON-APPE-CHEETOS®! Get playfully mischievous in the kitchen with these cheesy recipes. 🧀</p>
+            <div class ="botones">
+                <a href="#"><button class="btn_recetas">En Plato</button></a>
+                <a href="#"><button class="btn_recetas">Festividades</button></a>
+                <a href="#"><button class="btn_recetas">Merienda</button></a>
+                <a href="#"><button class="btn_recetas">Snacks</button></a>
+            </div>
 
-                <label for="nombre_Recetas">Ingresa el nombre de la receta</label>
-                <input type="text" name="" id="nombre_Recetas"> 
-
-                <label for="tel">Ingresa tu número</label>
-                <input type="number" name="" id="tel"> 
-
-                <p>Deja tu receta</p>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-
-                <input type="ENVIAR" value="Enviar">
-            </form>
         </section>
+        <div class = "grid-recetas">
+            <div class = "rec">
+                <img src="../images/recet4.jpg">
+                <p>CHEETOS® Sweet 'N' Spicy Chili Meatballs</p>
+            </div>
+            <div class = "rec">
+                <img src="../images/recet5.jpg">
+                <p>CHEETOS® FLAMIN' HOT® Fries</p>
+            </div>
+            <div class = "rec">
+                <img src="../images/recet6.jpg">
+                <p>CHEETOS® XXTRA FLAMIN' HOT® Rice Bowl</p>
+            </div>
+            <div class = "rec">
+                <img src="../images/recet7.jpg">
+                <p>Five-Alarm CHEETOS® Steak</p>
+            </div>
+            <div class = "rec">
+                <img src="../images/recet8.jpg">
+                <p>Chester Cheetah's CHEETOS® Churros</p>
+            </div>
+            <div class = "rec">
+                <img src="../images/recet9.jpg">
+                <p>CHEETOS® Sweetos Hot Cakes</p>
+            </div>
+            <div class = "rec">
+                <img src="../images/recet10.jpg">
+                <p>Puffectly Fried Green Tomatoes</p>
+            </div>
+            <div class = "rec">
+                <img src="../images/recet11.jpg">
+                <p>CHEETOS® Meatballs</p>
+            </div>
+            <div class = "rec">
+                <img src="../images/recet12.jpg">
+                <p>CHEETOS® 'Mac O' Lanterns'</p>
+            </div>
+        </div>
+        <div class = "formulario">
+            <div><h2>COMPARTE TU RECETA</h2></div>
+        
+            <section class = "form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Receta:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </section>
+            <a href="#"><button class="btn_form">ENVIAR</button></a>
+        </div>
     </main>
     <footer>
-        <p> <img src="../images/logo.png"> © 2025 Frito-Lay North America, Inc. a Division of PepsiCo</p>
+        <div class ="div-footer">
+            <div><a href ="index.html"><img src="../images/logo.png"></div></a>
+            <div><p>© 2025 Frito-Lay North America, Inc. a Division of PepsiCo</p></div>
+        </div>
+        
     </footer>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
     </body>
     
 </html>
