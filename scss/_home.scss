@@ -1,0 +1,60 @@
+.img_principal {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.banners {
+  width: max-content;
+}
+
+.imgchicas {
+  width: 200px;
+}
+
+// Sección productos
+.div_productos {
+  height: 520px;
+  background-color: $color-naranja;
+  text-align: center;
+  align-content: center;
+}
+
+.pbanner {
+  margin-top: $espaciado-medio;
+  margin-bottom: $espaciado-medio;
+  text-align: center;
+  color: $color-blanco;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: $fuente-principal;
+}
+
+// Sección videos
+.conjunto_video {
+  @include flex-center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.videos_titulo {
+  margin-top: $espaciado-medio;
+  margin-bottom: $espaciado-pequeno;
+  color: $color-naranja;
+  font-size: $fuente-size-grande;
+  font-family: $fuente-principal;
+}
+
+.div_videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.video {
+  text-align: center;
+  margin-top: $espaciado-medio;
+  margin-bottom: $espaciado-medio;
+}

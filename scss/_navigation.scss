@@ -1,0 +1,21 @@
+nav {
+  div {
+    background-color: $color-naranja;
+    text-align: right;
+    align-content: right;
+    margin-bottom: 0;
+  }
+}
+
+.nav-link {
+  padding: 40px;
+  font-size: 25px;
+  color: $color-blanco;
+  font-weight: bold;
+  font-family: $fuente-principal;
+  transition: color 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

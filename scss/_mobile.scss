@@ -1,0 +1,208 @@
+@media (max-width: $mobile) {
+  // NAVBAR
+  .nav-link {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .navbar-brand img {
+    width: 50px;
+  }
+
+  // BANNER PRINCIPAL
+  .img_principal img {
+    display: none; // Oculta el banner en móvil
+  }
+
+  // PRODUCTOS
+  .div_productos {
+    height: auto;
+    padding: $espaciado-pequeno;
+  }
+
+  .pbanner {
+    font-size: 30px;
+  }
+
+  .btn_productos,
+  .btn_videos,
+  .btn_recetas,
+  .btn_form {
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto 20px;
+  }
+
+  // CAROUSEL
+  .carousel-inner img {
+    width: 100%;
+  }
+
+  // VIDEOS
+  .videos_titulo {
+    font-size: 40px;
+  }
+
+  .div_videos {
+    flex-direction: column;
+    gap: $espaciado-pequeno;
+    padding: 0 10px;
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  // RECETAS
+  .recetas_h2 {
+    font-size: 2.5rem;
+  }
+
+  .container_recetas {
+    grid-template-columns: 1fr;
+    background-color: $color-naranja-claro;
+  }
+
+  .el img {
+    width: 90%;
+  }
+
+  // REDES
+  .h2social h2 {
+    font-size: 40px;
+  }
+
+  .social {
+    height: auto;
+    padding: $espaciado-pequeno 0;
+
+    img {
+      width: 60px;
+      height: 60px;
+      margin: 10px 0;
+    }
+  }
+
+  // FOOTER
+  .div-footer {
+    img {
+      width: 100px;
+      height: auto;
+    }
+
+    p {
+      font-size: 12px;
+      margin: 10px $espaciado-pequeno;
+    }
+  }
+
+  // PRODUCTOS PAGE
+  .div-titulo {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+
+    h1 {
+      margin: 0;
+      font-size: 35px;
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  .div-seccion-productos {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: 100%;
+    min-height: auto;
+    gap: 30px;
+  }
+
+  .pimg {
+    img {
+      width: 90%;
+      height: auto;
+    }
+
+    h3 {
+      font-size: 28px;
+    }
+  }
+
+  // RECETAS PAGE
+  .section-recetas {
+    width: 100%;
+    height: 100px;
+
+    img {
+      margin: 0 $espaciado-pequeno;
+      width: 450px;
+      height: 70px;
+    }
+  }
+
+  .div-recetas {
+    height: 200px;
+    width: 100%;
+
+    img {
+      visibility: hidden;
+    }
+
+    h1 {
+      font-size: 90px;
+      margin-left: 750px;
+    }
+  }
+
+  .recetario p {
+    padding: $espaciado-pequeno;
+  }
+
+  .grid-recetas {
+    margin: 0 50px 0 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+
+    img {
+      width: 400px;
+    }
+  }
+
+  // FORMULARIO
+  .form {
+    padding: $espaciado-pequeno;
+    margin: 0 10px;
+  }
+
+  // ACERCA
+  .acerca-banner {
+    padding: $espaciado-pequeno;
+
+    img {
+      display: none;
+    }
+
+    h1 {
+      font-size: 60px;
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  .info {
+    background-color: $color-blanco;
+    height: auto;
+    padding: $espaciado-pequeno;
+
+    p {
+      margin: 10px;
+      font-size: 14px;
+    }
+  }
+}

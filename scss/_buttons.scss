@@ -1,0 +1,49 @@
+.btn_productos {
+  @include boton-base;
+  background-color: $color-blanco;
+  color: orange;
+  margin-top: $espaciado-grande;
+  margin-bottom: $espaciado-grande;
+
+  &:hover {
+    background-color: $color-blanco;
+    color: $color-naranja;
+    @include hover-zoom;
+  }
+}
+
+.btn_videos {
+  @include boton-base;
+  background-color: $color-naranja;
+  color: $color-blanco;
+
+  &:hover {
+    background-color: $color-blanco;
+    color: $color-naranja;
+    @include hover-zoom;
+  }
+}
+
+.btn_recetas {
+  @include boton-base;
+  background-color: $color-naranja;
+  color: $color-blanco;
+
+  &:hover {
+    background-color: $color-blanco;
+    color: $color-naranja;
+    @include hover-zoom;
+  }
+}
+
+.btn_form {
+  @include boton-base;
+  background-color: $color-blanco;
+  color: $color-naranja;
+}
+
+.btn_pdctos {
+  @include boton-base;
+  background-color: $color-blanco;
+  color: $color-naranja;
+}

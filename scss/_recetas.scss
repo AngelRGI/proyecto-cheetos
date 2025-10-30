@@ -1,0 +1,89 @@
+.recetas {
+  background: linear-gradient(to bottom, $color-naranja-claro 60%, $color-blanco 40%);
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.recetas_h2 {
+  font-family: $fuente-principal;
+  font-size: 4.5rem;
+  color: $color-blanco;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+.container_recetas {
+  @include grid-responsive(3, auto);
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+}
+
+.el {
+  margin: 0;
+  padding: $espaciado-medio;
+
+  img {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.grid-recetas {
+  margin: 50px 200px;
+  @include grid-responsive(3, 3);
+
+  &:hover img {
+    transform: scale(1.08);
+    filter: brightness(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+}
+
+.rec {
+  p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: $espaciado-pequeno;
+    font-size: $fuente-size-base;
+    font-family: $fuente-principal;
+  }
+}
+
+.recetario {
+  p {
+    margin-top: $espaciado-medio;
+    font-style: inherit;
+    font-size: $fuente-size-base;
+  }
+}
+
+.div-recetas {
+  background-color: $color-naranja;
+  @include flex-center;
+  flex-direction: row;
+
+  h1 {
+    font-size: 120px;
+    font-family: $fuente-principal;
+    color: $color-blanco;
+    margin-right: 180px;
+  }
+}
+
+.section-recetas {
+  align-content: center;
+  align-items: center;
+  height: 170px;
+}

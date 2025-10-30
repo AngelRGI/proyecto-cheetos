@@ -1,621 +1,627 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-header{
-    background-color:rgb(231, 115, 48);
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header image{
-    width: 60px;
-    margin: 8px;
+html, body {
+  overflow-x: hidden;
+  width: 100%;
 }
 
- /* nav{
-    text-align: center;
-}
-nav ul{
-    list-style: none;
-}
-nav a {
-text-decoration: none;
-font-size: 1.9rem ;
-color: white;
-}  */
-
-
-
-/* div{
-    background-color: rgb(231, 115, 48);
-    height: 80px;
-    text-align: center;
-    align-content: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}*/
-nav div{
-    background-color: rgb(231, 115, 48);
-    text-align: right;
-    align-content: right;
-    margin-bottom: 0;
-
-} 
-.nav-link{
-    padding: 40px;
-    font-size: 25px;
-    color:white;
-    font-style: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+section {
+  text-align: center;
 }
 
-
-h2{
-    
-    color: white;
+h2 {
+  color: white;
 }
 
-p{
-  size: 20rem;  
-}
-.redes{ 
-width: 65px;
+p {
+  font-size: 20px;
 }
 
-.hprincipal{
-    text-align: left;
-    size: 1.0rem;
-}
-.banners{
-    width:max-content;
-    
+.hprincipal {
+  text-align: left;
+  font-size: 1rem;
 }
 
-.imgchicas{
-    width: 200px;
+header {
+  background-color: rgb(231, 115, 48);
+}
+header image {
+  width: 60px;
+  margin: 8px;
 }
 
-section{
-    text-align: center;
+nav div {
+  background-color: rgb(231, 115, 48);
+  text-align: right;
+  align-content: right;
+  margin-bottom: 0;
 }
 
-.div_productos{
-    
-    height: 520px;
-    background-color: rgb(231, 115, 48);
-    text-align: center;
-    align-content: center;
+.nav-link {
+  padding: 40px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  transition: color 0.3s ease;
 }
-.pbanner{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    font-style: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.nav-link:hover {
+  opacity: 0.8;
 }
-.carousel-inner img{
-    margin: 0 auto;
+
+footer {
+  height: 200px;
+  background-color: white;
+  color: rgb(231, 115, 48);
+  font-size: 1.2rem;
+}
+
+.div-footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.div-footer img {
+  width: 140px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+.div-footer p {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-style: inherit;
+  color: black;
 }
 
 .btn_productos {
-    border: none;
-    border-radius: 5%;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    background-color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: orange;
+  border: none;
+  border-radius: 5%;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: white;
+  color: orange;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
-.conjunto_video{
-    align-items: center;
-    align-content: center;
-    text-align: center;
+.btn_productos:hover {
+  background-color: white;
+  color: rgb(231, 115, 48);
 }
-
-.videos_titulo{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color:  rgb(231, 115, 48) ;
-    font-size: 70px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.btn_videos{
-    border: none;
-    border-radius: 5%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    background-color: rgb(231, 115, 48);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
+.btn_productos:hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(231, 115, 48, 0.5);
 }
 
-
-.div_videos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 40px;
+.btn_videos {
+  border: none;
+  border-radius: 5%;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: rgb(231, 115, 48);
+  color: white;
+}
+.btn_videos:hover {
+  background-color: white;
+  color: rgb(231, 115, 48);
+}
+.btn_videos:hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(231, 115, 48, 0.5);
 }
 
-.video{
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    
+.btn_recetas {
+  border: none;
+  border-radius: 5%;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: rgb(231, 115, 48);
+  color: white;
+}
+.btn_recetas:hover {
+  background-color: white;
+  color: rgb(231, 115, 48);
+}
+.btn_recetas:hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(231, 115, 48, 0.5);
 }
 
-.recetas{
-    background: linear-gradient(to bottom, #f36c21 60%, white 40%);
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
-    position: relative;
+.btn_form {
+  border: none;
+  border-radius: 5%;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: white;
+  color: rgb(231, 115, 48);
 }
 
-.recetas_h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 4.5rem;
-    color: white;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
-    letter-spacing: 2px;
+.btn_pdctos {
+  border: none;
+  border-radius: 5%;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: white;
+  color: rgb(231, 115, 48);
 }
-.container_recetas{
-    display: grid;
-    grid-template-columns: repeat(3,0fr);
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    
+
+.carousel-inner img {
+  margin: 0 auto;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+  gap: 0px;
+  background-color: rgb(231, 115, 48);
+  height: 100px;
+}
+.social img {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
+}
+.social img:hover {
+  transform: scale(1.1);
+}
+
+.h2social {
+  background-color: rgb(231, 115, 48);
+  padding: 20px;
+}
+.h2social h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.strongp {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 17px;
+}
+
+.redes {
+  width: 65px;
+}
+
+.formulario {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 40px;
+  text-align: center;
+  background-color: rgb(231, 115, 48);
+  min-height: 200px;
+}
+
+.form {
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 40px;
+}
+
+.img_principal img {
+  width: 100%;
+  height: auto;
+}
+
+.banners {
+  width: max-content;
+}
+
+.imgchicas {
+  width: 200px;
+}
+
+.div_productos {
+  height: 520px;
+  background-color: rgb(231, 115, 48);
+  text-align: center;
+  align-content: center;
+}
+
+.pbanner {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.conjunto_video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.videos_titulo {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: rgb(231, 115, 48);
+  font-size: 70px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.div_videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.video {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.div-titulo {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.div-titulo h1 {
+  margin-right: 80px;
+  font-size: 100px;
+  color: rgb(231, 115, 48);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.div-seccion-productos {
+  padding: 80px;
+  min-height: 800px;
+  background-color: rgb(231, 115, 48);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.pimg {
+  text-align: center;
+}
+.pimg img {
+  width: 320px;
+  height: 250px;
+  transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), filter 0.5s ease;
+}
+.pimg:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+.pimg h3 {
+  margin-top: 20px;
+  color: white;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.recetas {
+  background: linear-gradient(to bottom, #f36c21 60%, white 40%);
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.recetas_h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 4.5rem;
+  color: white;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+.container_recetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
 }
 
 .el {
-    margin: 0;
-    padding: 40px;
+  margin: 0;
+  padding: 40px;
+}
+.el img {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.el img:hover {
+  transform: scale(1.05);
 }
 
-.el img{
-    
-    margin: 0;
-    padding: 0;
-    width: 400px;
-    height: auto;
-    border-radius: 10px;
+.grid-recetas {
+  margin: 50px 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.grid-recetas:hover img {
+  transform: scale(1.08);
+  filter: brightness(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
-.btn_recetas{
-    border: none;
-    border-radius: 5%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    background-color: rgb(231, 115, 48);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-}
-
-.social{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
-    align-content: center;
-    gap: 0px;
-    background-color: rgb(231, 115, 48);
-    height: 100px ;
-}
-.social img {
-    margin-left: 20px;
-    margin-right: 20px;
-    color: white;
-    width: 80px;
-    height: 80px;
-}
-.h2social {
-    background-color: rgb(231, 115, 48);
-    padding: 20px;    
-}
-.h2social h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    font-size: 70px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-.strongp{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    font-size: 20px;
-    color:white;
-    margin-bottom: 17px;
-
-}
-
-footer{
-    height: 200px;
-    background-color:white;
-    color: rgb(231, 115, 48);
-    font-size: 1.2rem;
-}
-.div-footer{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0;
-
-}
-.div-footer img {
-    width: 140px;
-    height: 80px;
-    margin-bottom: 10px;
-}
-
-.div-footer p{
-    margin-top: 30px;
-    margin-bottom: 0;
-    font-size: 15px;
-    font-style:inherit;
-    color: black;
-}
-
-.div-titulo{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.div-titulo h1 {
-    margin-right: 80px;
-    font-size: 100px;
-    color: rgb(231, 115, 48);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-    
-}
-
-.div-seccion-productos{ 
-    padding: 80px;
-    min-height: 800px;   
-    background-color:rgb(231, 115, 48);
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    justify-items: center;
-    align-items: center;
-}
-.pimg{
-    text-align: center;
-    
-}
-.pimg img{
-    width: 320px;
-    height: 250px;
-    
-}
-.pimg h3{
-    margin-top: 20px;
-    color: white;
-    font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-}
-
-.btn_pdctos{
-    border: none;
-    border-radius: 5%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    background-color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(231, 115, 48);
+.rec p {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .recetario p {
-    margin-top: 40px;
-    font-style:inherit;
-    font-size: 20px;
+  margin-top: 40px;
+  font-style: inherit;
+  font-size: 20px;
 }
 
 .div-recetas {
-    background-color: rgb(231, 115, 48);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  background-color: rgb(231, 115, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
-.section-recetas{
-    align-content: center;
-    align-items: center;
-    height: 170px;
-}
-.div-recetas h1{
-    font-size: 120px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    margin-right: 180px;
+.div-recetas h1 {
+  font-size: 120px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  margin-right: 180px;
 }
 
-.grid-recetas{
-    margin-top: 50px;
-    margin-right: 200px;
-    margin-left: 200px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-}
-
-.rec p{
-    margin-top: 10px;
-    margin-bottom: 50px;
-    margin-right: 20px;
-    font-size: 20px;
-    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.formulario{
-    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 40px;
-    text-align: center;
-    background-color: rgb(231, 115, 48);
-    min-height: 200px;
-
-}
-
-
-.form{
-    color: white;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 40px;
-}
-
-.btn_form{
-    border: none;
-    border-radius: 5%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    background-color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(231, 115, 48);
+.section-recetas {
+  align-content: center;
+  align-items: center;
+  height: 170px;
 }
 
 .acerca-banner {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
-.acerca-banner h1{
-    font-size: 120px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(231, 115, 48);
-    margin-right: 180px;
-}
-
-.info{
-    align-content: center;
-    text-align: center;
-    font-size: 1rem;
-    background-color: rgb(204, 198, 198);
-    height: 200px;
+.acerca-banner h1 {
+  font-size: 120px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(231, 115, 48);
+  margin-right: 180px;
 }
 
+.info {
+  align-content: center;
+  text-align: center;
+  font-size: 1rem;
+  background-color: rgb(204, 198, 198);
+  height: 200px;
+}
 .info p {
-    margin-top: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
-    /* NAVBAR */
-    .nav-link {
-        padding: 10px;
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .navbar-brand img {
-        width: 50px;
-    }
-
-    /* BANNER PRINCIPAL */
-    .img_principal img {
-        width: 100%;
-        height: auto;
-    }
-
-    /* PRODUCTOS */
-    .div_productos {
-        height: auto;
-        padding: 20px;
-    }
-
-    .pbanner {
-        font-size: 30px;
-    }
-
-    .btn_productos {
-        margin: 30px auto;
-        width: 100%;
-        max-width: 300px;
-    }
-
-    /* CAROUSEL */
-    .carousel-inner img {
-        width: 100%;
-    }
-
-    /* VIDEOS */
-    .videos_titulo {
-        font-size: 40px;
-    }
-
-    .div_videos {
-        flex-direction: column;
-        gap: 20px;
-        padding: 0 10px;
-    }
-
-    .video iframe {
-        width: 100%;
-        height: 200px;
-    }
-
-    .btn_videos {
-        width: 100%;
-        max-width: 300px;
-    }
-
-    /* RECETAS */
-    .recetas_h2 {
-        font-size: 2.5rem;
-    }
-
-    .container_recetas {
-        grid-template-columns: 1fr;
-        background-color: #f36c21;
-    }
-
-    .el img {
-        width: 90%;
-    }
-
-    .btn_recetas {
-        width: 100%;
-        max-width: 300px;
-    }
-
-    /* REDES */
-    .h2social h2 {
-        font-size: 40px;
-    }
-
-    .social {
-        flex-direction: row;
-        height: auto;
-        padding: 20px 0;
-    }
-
-    .social img {
-        width: 60px;
-        height: 60px;
-        margin: 10px 0;
-    }
-
-    /* FOOTER */
-    .div-footer img {
-        width: 100px;
-        height: auto;
-    }
-
-    .div-footer p {
-        font-size: 12px;
-        margin: 10px 20px;
-    }
-
-    /* SECCIÓN PRODUCTOS (GRID) */
-
-    .div-titulo{
-        text-align: center;
-        width: max-content;
-        height: 100px;
-        background-color: white;
-    }
-    .div-titulo h1 {
-    font-size: 20px;
-    color: rgb(231, 115, 48);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    .div-titulo img{
-        visibility: hidden;
-    }
-    .div-seccion-productos {
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(6,1fr);
-        width: 100%;
-        min-height: auto;
-        gap: 30px;
-    }
-
-    .pimg img {
-        width: 90%;
-        height: auto;
-    }
-
-    .pimg h3 {
-        font-size: 28px;
-    }
-
-    /* SECCIÓN RECETARIO Y GRID */
-    .div-recetas {
-        flex-direction: column;
-    }
-
-    .div-recetas h1 {
-        font-size: 50px;
-        margin: 0;
-    }
-
-    .grid-recetas {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        margin: 20px;
-    }
-
-    .rec p {
-        font-size: 16px;
-    }
-
-    /* FORMULARIO */
-    .form {
-        padding: 20px;
-        margin: 0 10px;
-    }
-
-    .btn_form {
-        width: 100%;
-        max-width: 300px;
-    }
-
-    /* ACERCA */
-    .acerca-banner {
-        flex-direction: column;
-    }
-
-    .acerca-banner h1 {
-        font-size: 50px;
-        margin: 20px 0;
-    }
-
-    /* INFO */
-    .info {
-        height: auto;
-        padding: 20px;
-    }
-
-    .info p {
-        margin: 10px;
-        font-size: 14px;
-    }
+  .nav-link {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .navbar-brand img {
+    width: 50px;
+  }
+  .img_principal img {
+    display: none;
+  }
+  .div_productos {
+    height: auto;
+    padding: 20px;
+  }
+  .pbanner {
+    font-size: 30px;
+  }
+  .btn_productos,
+  .btn_videos,
+  .btn_recetas,
+  .btn_form {
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto 20px;
+  }
+  .carousel-inner img {
+    width: 100%;
+  }
+  .videos_titulo {
+    font-size: 40px;
+  }
+  .div_videos {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+  .video iframe {
+    width: 100%;
+    height: 200px;
+  }
+  .recetas_h2 {
+    font-size: 2.5rem;
+  }
+  .container_recetas {
+    grid-template-columns: 1fr;
+    background-color: #f36c21;
+  }
+  .el img {
+    width: 90%;
+  }
+  .h2social h2 {
+    font-size: 40px;
+  }
+  .social {
+    height: auto;
+    padding: 20px 0;
+  }
+  .social img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+  }
+  .div-footer img {
+    width: 100px;
+    height: auto;
+  }
+  .div-footer p {
+    font-size: 12px;
+    margin: 10px 20px;
+  }
+  .div-titulo {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .div-titulo h1 {
+    margin: 0;
+    font-size: 35px;
+  }
+  .div-titulo img {
+    display: none;
+  }
+  .div-seccion-productos {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: 100%;
+    min-height: auto;
+    gap: 30px;
+  }
+  .pimg img {
+    width: 90%;
+    height: auto;
+  }
+  .pimg h3 {
+    font-size: 28px;
+  }
+  .section-recetas {
+    width: 100%;
+    height: 100px;
+  }
+  .section-recetas img {
+    margin: 0 20px;
+    width: 450px;
+    height: 70px;
+  }
+  .div-recetas {
+    height: 200px;
+    width: 100%;
+  }
+  .div-recetas img {
+    visibility: hidden;
+  }
+  .div-recetas h1 {
+    font-size: 90px;
+    margin-left: 750px;
+  }
+  .recetario p {
+    padding: 20px;
+  }
+  .grid-recetas {
+    margin: 0 50px 0 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+  }
+  .grid-recetas img {
+    width: 400px;
+  }
+  .form {
+    padding: 20px;
+    margin: 0 10px;
+  }
+  .acerca-banner {
+    padding: 20px;
+  }
+  .acerca-banner img {
+    display: none;
+  }
+  .acerca-banner h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+  }
+  .info {
+    background-color: white;
+    height: auto;
+    padding: 20px;
+  }
+  .info p {
+    margin: 10px;
+    font-size: 14px;
+  }
 }
 
-
-
+/*# sourceMappingURL=estilos.css.map */

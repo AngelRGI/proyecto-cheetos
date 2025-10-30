@@ -1,0 +1,27 @@
+// 1. Variables y configuración
+@import 'variables';
+@import 'mixins';
+
+// 2. Base y reset
+@import 'reset';
+@import 'typography';
+
+// 3. Layout
+@import 'header';
+@import 'navigation';
+@import 'footer';
+
+// 4. Components
+@import 'buttons';
+@import 'carousel';
+@import 'social';
+@import 'forms';
+
+// 5. Pages
+@import 'home';
+@import 'productos';
+@import 'recetas';
+@import 'acerca';
+
+// 6. Responsive
+@import 'mobile';

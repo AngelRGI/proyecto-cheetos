@@ -1,0 +1,42 @@
+.div-titulo {
+  background-color: $color-blanco;
+  @include flex-center;
+  flex-direction: row;
+
+  h1 {
+    margin-right: $espaciado-grande;
+    font-size: $fuente-size-xlarge;
+    color: $color-naranja;
+    font-family: $fuente-principal;
+  }
+}
+
+.div-seccion-productos {
+  padding: $espaciado-grande;
+  min-height: 800px;
+  background-color: $color-naranja;
+  @include grid-responsive(3, 2);
+}
+
+.pimg {
+  text-align: center;
+
+  img {
+    width: 320px;
+    height: 250px;
+    transition: transform 0.5s cubic-bezier(.25,.8,.25,1), filter 0.5s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+  }
+
+  h3 {
+    margin-top: $espaciado-pequeno;
+    color: $color-blanco;
+    font-size: 40px;
+    font-family: $fuente-principal;
+    text-align: center;
+  }
+}

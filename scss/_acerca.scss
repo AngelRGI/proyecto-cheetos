@@ -1,0 +1,27 @@
+.acerca-banner {
+  background-color: $color-blanco;
+  @include flex-center;
+  flex-direction: row;
+
+  h1 {
+    font-size: 120px;
+    font-family: $fuente-principal;
+    color: $color-naranja;
+    margin-right: 180px;
+  }
+}
+
+.info {
+  align-content: center;
+  text-align: center;
+  font-size: 1rem;
+  background-color: $color-gris;
+  height: 200px;
+
+  p {
+    margin-top: $espaciado-pequeno;
+    margin-left: $espaciado-grande;
+    margin-right: $espaciado-grande;
+    margin-bottom: $espaciado-pequeno;
+  }
+}
